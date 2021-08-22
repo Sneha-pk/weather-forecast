@@ -1,0 +1,25 @@
+.weather-card-component {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+
+    & > span {
+        flex: 0 0 100px;
+    }
+
+    .weather-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 0 0 150px;
+
+        .desc {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
